@@ -78,10 +78,10 @@ public class StructureSearchList extends AlwaysSelectedEntryListWidget<Structure
 		}
 	}
 
-	private int getRowBottom(int index) {
+	/*private int getRowBottom(int index) {
 		return getRowTop(index) + itemHeight;
 	}
-
+	*/
 	public void refreshList() {
 		clearEntries();
 		for (Identifier id : parentScreen.sortStructures()) {
